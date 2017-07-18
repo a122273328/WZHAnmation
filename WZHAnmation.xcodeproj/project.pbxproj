@@ -15,6 +15,7 @@
 		2961F9671F1DE19800CD36F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2961F9651F1DE19800CD36F5 /* LaunchScreen.storyboard */; };
 		2961F9721F1DE19800CD36F5 /* WZHAnmationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2961F9711F1DE19800CD36F5 /* WZHAnmationTests.m */; };
 		2961F97D1F1DE19800CD36F5 /* WZHAnmationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2961F97C1F1DE19800CD36F5 /* WZHAnmationUITests.m */; };
+		2961F98C1F1DE1D300CD36F5 /* WZHAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2961F98B1F1DE1D300CD36F5 /* WZHAnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2961F9781F1DE19800CD36F5 /* WZHAnmationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZHAnmationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2961F97C1F1DE19800CD36F5 /* WZHAnmationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZHAnmationUITests.m; sourceTree = "<group>"; };
 		2961F97E1F1DE19800CD36F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2961F98A1F1DE1D300CD36F5 /* WZHAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZHAnimationView.h; sourceTree = "<group>"; };
+		2961F98B1F1DE1D300CD36F5 /* WZHAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZHAnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				2961F95B1F1DE19800CD36F5 /* AppDelegate.m */,
 				2961F95D1F1DE19800CD36F5 /* ViewController.h */,
 				2961F95E1F1DE19800CD36F5 /* ViewController.m */,
+				2961F98A1F1DE1D300CD36F5 /* WZHAnimationView.h */,
+				2961F98B1F1DE1D300CD36F5 /* WZHAnimationView.m */,
 				2961F9601F1DE19800CD36F5 /* Main.storyboard */,
 				2961F9631F1DE19800CD36F5 /* Assets.xcassets */,
 				2961F9651F1DE19800CD36F5 /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2961F95F1F1DE19800CD36F5 /* ViewController.m in Sources */,
+				2961F98C1F1DE1D300CD36F5 /* WZHAnimationView.m in Sources */,
 				2961F95C1F1DE19800CD36F5 /* AppDelegate.m in Sources */,
 				2961F9591F1DE19800CD36F5 /* main.m in Sources */,
 			);

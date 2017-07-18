@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "WZHAnimationView.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +19,14 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)start:(id)sender {
+    
+    [WZHAnimationView showInView:self.view];
+}
+- (IBAction)end:(id)sender {
+    
+    [WZHAnimationView dismiss];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
